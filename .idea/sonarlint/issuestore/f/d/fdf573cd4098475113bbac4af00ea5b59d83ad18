@@ -1,0 +1,12 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ï¶…†•/
+l
+java:S1192""JDefine a constant instead of duplicating this literal "Balance: " 4 times.(â¢ÌÀúÿÿÿÿ8†Ó«†•/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 64 to the 15 allowed.(Çµí‘8Ûòö…•/
+m
+java:S11922"PDefine a constant instead of duplicating this literal "Confirm (Y/N)? " 3 times.(¦£õÁ8á†¤ˆ•/
+k
+java:S1192."NDefine a constant instead of duplicating this literal "Enter value: " 3 times.(ÒÀÃ§8á†¤ˆ•/
+h
+java:S1192""FDefine a constant instead of duplicating this literal " lkr " 7 times.(â¢ÌÀúÿÿÿÿ8†Ó«†•/
