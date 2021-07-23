@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class ATMMachine {
     public static void main(String[] args) {
-        int actualCardNo = 123456789;
+        int actualCardNo = 1234;
         int cardNo;
         int option1;
         int value;
-        int balance = 100000;
+        int balance = 300000;
         int balanceCanWithdraw;
         String confirm;
 
@@ -39,6 +39,18 @@ public class ATMMachine {
                                 balanceCanWithdraw = balance - 2000;
                             }
                             System.out.println("Withdrawal Balance: " + balanceCanWithdraw + " lkr ");
+
+                            System.out.print("Do you want any other Service (Y/N)? ");
+                            confirm = input.next();
+                            System.out.print("\n");
+
+                            if (confirm.equalsIgnoreCase("N")) {
+                                System.out.println("Thank You for Using our ATM!!");
+                                System.exit(0);
+                            } else {
+                                break;
+                            }
+
                         } else if (option1 == 2) {
                             if (balance > 200000) {
                                 balanceCanWithdraw = 200000;
@@ -54,13 +66,34 @@ public class ATMMachine {
                                         System.out.println("Withdrawal Successful");
                                         balance -= value;
                                         System.out.println("Balance: " + balance + " lkr ");
-                                        System.exit(0);
+
+                                        if (balance > 200000) {
+                                            balanceCanWithdraw = 200000;
+                                        }
+                                        else {
+                                            balanceCanWithdraw = balance - 2000;
+                                        }
+
+                                        System.out.println("Withdrawal Balance: " + balanceCanWithdraw + " lkr ");
+
+                                        System.out.print("Do you want any other Service (Y/N)? ");
+                                        confirm = input.next();
+                                        System.out.print("\n");
+
+                                        if (confirm.equalsIgnoreCase("N")) {
+                                            System.out.println("Thank You for Using our ATM!!");
+                                            System.exit(0);
+                                        } else {
+                                            break;
+                                        }
+
                                     } else {
                                         break;
                                     }
                                     break;
                                 } else {
-                                    System.out.println("You can Withdraw upto " + balanceCanWithdraw + " lkr ");
+                                    System.out.println("You can Withdraw upto " + balanceCanWithdraw + " lkr \n");
+                                    break;
                                 }
                             }
                             else {
@@ -77,7 +110,21 @@ public class ATMMachine {
                                         System.out.println("Withdrawal Successful");
                                         balance -= value;
                                         System.out.println("Balance: " + balance + " lkr ");
-                                        System.exit(0);
+
+                                        balanceCanWithdraw = balance - 2000;
+                                        System.out.println("Withdrawal Balance: " + balanceCanWithdraw + " lkr ");
+
+                                        System.out.print("Do you want any other Service (Y/N)? ");
+                                        confirm = input.next();
+                                        System.out.print("\n");
+
+                                        if (confirm.equalsIgnoreCase("N")) {
+                                            System.out.println("Thank You for Using our ATM!!");
+                                            System.exit(0);
+                                        } else {
+                                            break;
+                                        }
+
                                     } else {
                                         break;
                                     }
@@ -99,11 +146,32 @@ public class ATMMachine {
                                 System.out.println("Deposit Successful");
                                 balance += value;
                                 System.out.println("Balance: " + balance + " lkr ");
-                                System.exit(0);
+
+                                if (balance > 200000) {
+                                    balanceCanWithdraw = 200000;
+                                }
+                                else {
+                                    balanceCanWithdraw = balance - 2000;
+                                }
+
+                                System.out.println("Withdrawal Balance: " + balanceCanWithdraw + " lkr ");
+
+                                System.out.print("Do you want any other Service (Y/N)? ");
+                                confirm = input.next();
+                                System.out.print("\n");
+
+                                if (confirm.equalsIgnoreCase("N")) {
+                                    System.out.println("Thank You for Using our ATM!!");
+                                    System.exit(0);
+                                } else {
+                                    break;
+                                }
+
                             } else {
                                 break;
                             }
                         } else if (option1 == 0) {
+                            System.out.println("Thank You for Using our ATM!!");
                             System.exit(0);
                         }
                     }
