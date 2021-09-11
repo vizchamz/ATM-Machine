@@ -1,18 +1,18 @@
 
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ï¶…†•/
+€
+java:S11920"^Define a constant instead of duplicating this literal "Thank You for Using our ATM!!" 5 times.(İ»Ö­ûÿÿÿÿ8ç©ª­/
+h
+java:S1192""FDefine a constant instead of duplicating this literal " lkr " 9 times.(â¢ÌÀúÿÿÿÿ8†Ó«†•/
+m
+java:S1192>"PDefine a constant instead of duplicating this literal "Confirm (Y/N)? " 3 times.(¦£õÁ8á†¤ˆ•/
+r
+java:S1192)"UDefine a constant instead of duplicating this literal "Withdrawal Balance: " 4 times.(‘ŞŠî8ÜØ­/
 ˆ
 java:S1192+"fDefine a constant instead of duplicating this literal "Do you want any other Service (Y/N)? " 4 times.(Å¿¢Ìûÿÿÿÿ8ø—ãÔ«/
 l
 java:S1192""JDefine a constant instead of duplicating this literal "Balance: " 4 times.(â¢ÌÀúÿÿÿÿ8†Ó«†•/
-€
-java:S11920"^Define a constant instead of duplicating this literal "Thank You for Using our ATM!!" 5 times.(İ»Ö­ûÿÿÿÿ8ç©ª­/
 k
 java:S1192:"NDefine a constant instead of duplicating this literal "Enter value: " 3 times.(ÒÀÃ§8á†¤ˆ•/
-z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ï¶…†•/
 p
 java:S3776"SRefactor this method to reduce its Cognitive Complexity from 111 to the 15 allowed.(Çµí‘8Ûòö…•/
-r
-java:S1192)"UDefine a constant instead of duplicating this literal "Withdrawal Balance: " 4 times.(‘ŞŠî8ÜØ­/
-m
-java:S1192>"PDefine a constant instead of duplicating this literal "Confirm (Y/N)? " 3 times.(¦£õÁ8á†¤ˆ•/
-h
-java:S1192""FDefine a constant instead of duplicating this literal " lkr " 9 times.(â¢ÌÀúÿÿÿÿ8†Ó«†•/
